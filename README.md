@@ -30,6 +30,8 @@ PHP and MySQL web app for language school management. Features role-based access
 
 Sigue estos pasos para poner en marcha el sistema:
 
+## LINUX
+
 ### 1. Clonar o descargar el repositorio
 Descarga este repositorio en tu computadora o clónalo utilizando Git:
 ```bash
@@ -58,6 +60,31 @@ Inicia el servidor local de PHP desde la carpeta del proyecto:
 php -S 127.0.0.1:8000
 ```
 Luego, abre tu navegador e ingresa a: `http://127.0.0.1:8000`
+
+## WINDOWS
+
+#### 1. Descarga el repositorio
+Abre el Símbolo del sistema (CMD) o PowerShell, y navega hasta la 
+carpeta donde descargaste o guardaste tu proyecto usando el comando cd. Por ejemplo:
+```bash
+cd C:\ruta\de\tu\carpeta\academia-idiomas
+```
+Verification: La ruta que se muestra al inicio de la línea en tu consola 
+debe coincidir exactamente con la ubicación de la carpeta de tu proyecto.
+
+### 2. Encender el servidor local de PHP:
+Escribe el siguiente comando en la consola y presiona Enter:
+```bash
+php -S localhost:8000
+```
+Verification: La consola debe mostrar un mensaje indicando que el servidor 
+de desarrollo ha iniciado (por ejemplo: Development Server (http://localhost:8000) started).
+
+### 3. Abrir el sistema en el navegador:
+Abre tu navegador web favorito (Chrome, Edge, etc.), escribe la siguiente 
+dirección en la barra de búsqueda y presiona Enter:http://localhost:8000
+Verification: Deberá cargar inmediatamente la página principal de inicio de sesión de 
+tu sistema de la academia de idiomas.
 
 ---
 
