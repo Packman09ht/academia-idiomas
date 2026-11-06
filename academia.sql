@@ -1,8 +1,4 @@
--- ============================================================
---  Academia de Idiomas · Base de datos (MySQL / MariaDB)
---  Importar:  sudo mysql < academia.sql      (o desde phpMyAdmin)
---  Usuarios de prueba (clave 1234): admin, recepcion, docente, estudiante
--- ============================================================
+
 SET NAMES utf8mb4;
 DROP DATABASE IF EXISTS academia;
 CREATE DATABASE academia CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
