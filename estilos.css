@@ -38,7 +38,6 @@ td input{width:72px;margin:0;padding:8px;text-align:center}
 .logo{width:68px;height:68px;border-radius:18px;background:var(--acc);color:var(--on);display:grid;place-items:center;margin:0 auto 10px;font-weight:700}
 .chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:12px}
 
-/* Navegación para pantallas de Ordenador (pantallas de 768px en adelante) */
 @media (min-width: 768px) {
   .wrap {
     max-width: 900px;
